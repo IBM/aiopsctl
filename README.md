@@ -21,13 +21,13 @@ For a complete guide to using aiopsctl along with helper scripts and instruction
 ```sh
 $ aiopsctl --help
 
-This tool allows you to install and manage IBM CloudPak for AIOps
+This tool allows you to install and manage IBM Cloud Pak for AIOps
 
 Usage:
   aiopsctl [command]
 
 Available Commands:
-  cluster     Commands to manage the cluster of kubernetes nodes
+  cluster     Commands to manage the cluster of nodes
   completion  Generate the autocompletion script for the specified shell
   help        Help about any command
   license     View product license
@@ -38,7 +38,6 @@ Flags:
       --accept-license      Accept the license
   -c, --config string       Config file location (default "~/.aiopsctl.yaml")
   -h, --help                help for aiopsctl
-      --kubeconfig string   Path to kubeconfig file (default "/etc/rancher/k3s/k3s.yaml")
   -l, --log-file string     Log filename, set to stdout to print to console
       --show-secrets        Allow the display of secrets in output
       --tool-home string    tool home directory (default ".aiopsctl")
